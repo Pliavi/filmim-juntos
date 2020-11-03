@@ -45,7 +45,7 @@
 
         <button
           class="block text-center border rounded-md border-red-600 bg-red-500 text-white font-bold p-2 mx-auto"
-          @keydown.enter="handleKey"
+          @click="handleKey"
         >
           Assistir
         </button>
